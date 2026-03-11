@@ -45,9 +45,9 @@ IMPORTANT: Vous ne pourrez pas faire de `push` avec votre mot de passe (Github n
 ### Exercice 1 - Etudier une API REST sans couches
 _Temps estimé : 40 mins_
 
-* Importer dans IDEA les projets depuis le VCS (URL : `https://github.com/<x>/tp-miage-2024.git`.
+* Importer dans IDEA les projets depuis le VCS (URL : `https://github.com/<x>/tp-miage-<YYYY>.git`.
 
-TIP: [Rappel Git] Trois dépôts sont ici utilisés : le dépot Github de l'enseignant (`bflorat/tp-miage-2024`), le dépot Github du binôme (`<x>/tp-miage-2024`), le dépot local sur le portable de l'un ou des deux étudiants du binôme.
+TIP: [Rappel Git] Trois dépôts sont ici utilisés : le dépot Github de l'enseignant (`bflorat/tp-miage-<YYYY>`), le dépot Github du binôme (`<x>/tp-miage-<YYYY>`), le dépot local sur le portable de l'un ou des deux étudiants du binôme.
 
 * Observer le code du projet `todolist-debut-ex1`
 
