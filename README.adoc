@@ -45,9 +45,9 @@ IMPORTANT: Vous ne pourrez pas faire de `push` avec votre mot de passe (Github n
 ### Exercice 1 - Etudier une API REST sans couches
 _Temps estimé : 40 mins_
 
-* Importer dans IDEA les projets depuis le VCS (URL : `https://github.com/<x>/tp-miage-<YYYY>.git`.
+* Importer dans IDEA les projets depuis le VCS (URL : `https://github.com/<x>/tp-miage-2024.git`.
 
-TIP: [Rappel Git] Trois dépôts sont ici utilisés : le dépot Github de l'enseignant (`bflorat/tp-miage-<YYYY>`), le dépot Github du binôme (`<x>/tp-miage-<YYYY>`), le dépot local sur le portable de l'un ou des deux étudiants du binôme.
+TIP: [Rappel Git] Trois dépôts sont ici utilisés : le dépot Github de l'enseignant (`bflorat/tp-miage-2024`), le dépot Github du binôme (`<x>/tp-miage-2024`), le dépot local sur le portable de l'un ou des deux étudiants du binôme.
 
 * Observer le code du projet `todolist-debut-ex1`
 
@@ -117,6 +117,8 @@ Source : http://leanpub.com/get-your-hands-dirty-on-clean-architecture[Tom Hombe
   - la couche `domain` qui contient les entités (au sens DDD, pas au sens JPA). En général des classes complexes (méthodes riches, relations entre les entités)
 
 *Rappeler en quelques lignes les grands principes de l'architecture hexagonale.*
+L'architecture hexagonale sert à séparer la logique métier de l'infrastructure. Le domaine métier doit pouvoir fonctionner seul, sans dépendre de l'infrastructure technique.
+Cette architecture s'appuie sur les ports (in et out) et adapters avec le domaine au centre.
 
 Compléter ce code avec une fonctionnalité de création de `TodoItem`  persisté en base et appelé depuis un endpoint REST `POST /todos` qui :
 
